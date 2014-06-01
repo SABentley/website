@@ -1,5 +1,8 @@
 #module
 {
+	display:none;
+    opacity:0.0;
+    filter:alpha(opacity=0)
 	width: 100%;
 	height: 1576px;
 	margin-left: 150px;
@@ -17,8 +20,11 @@
 	background-repeat: no-repeat;
 	background-color: #522121;
 }
-#button
+.button
 {
+	display:none;
+    opacity:0.0;
+    filter:alpha(opacity=0);
 	margin-top: 20px;
 	width: 414px;
 	height: 142px;
@@ -31,6 +37,11 @@
 	list-style-type: none;
 	background-color: #32283D;
 	box-shadow: -5px -5px 20px black;
+}
+#buttonList
+{
+	padding-left:105px;
+	padding-top:340px;
 }
 body
 {
