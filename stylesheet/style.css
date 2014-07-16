@@ -4,17 +4,16 @@
     opacity:0.0;
     filter:alpha(opacity=0);
 	width: 100%;
-	height: 1576px;
-	margin-left: 150px;
+	height: auto;
+	margin-left: 8%;
 	background-image: url("module.png");
 	background-repeat: no-repeat;
 	background-color: transparent;
-	position: relative;
 }
 #background
 {
-	height: 1080px;
-	width: 1920px;
+	height: 100%;
+	width: 100%;
 	margin: 0px;
 	background-image: url("background.png");
 	background-repeat: no-repeat;
@@ -22,15 +21,15 @@
 }
 .button
 {
-	margin-top: 20px;
-	width: 414px;
-	height: 142px;
+	margin-top: 1%;
+	width: 22%;
+	height: auto;
 	color: #E9E017;
 	line-height: 142px;
 	text-align: center;
 	text-decoration:underline;
 	font-family: impact;
-	font-size: 72px;
+	font-size: 500%;
 	list-style-type: none;
 	background-color: #32283D;
 	box-shadow: -5px -5px 20px black;
