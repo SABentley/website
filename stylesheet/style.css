@@ -4,7 +4,7 @@
     opacity:0.0;
     filter:alpha(opacity=0);
 	width: 100%;
-	height: auto;
+	height: 100%;
 	margin-left: 8%;
 	background-image: url("module.png");
 	background-repeat: no-repeat;
@@ -14,40 +14,46 @@
 {
 	height: 100%;
 	width: 100%;
-	margin: 0px;
 	background-image: url("background.png");
 	background-repeat: no-repeat;
 	background-color: #522121;
 }
 .button
 {
-	margin-top: 1%;
+	display: inline-block;
+	float: left;
 	width: 22%;
-	height: auto;
-	color: #E9E017;
+	height: 11%;
 	line-height: 142px;
-	text-align: center;
-	text-decoration:underline;
-	font-family: impact;
-	font-size: 500%;
-	list-style-type: none;
 	background-color: #32283D;
 	box-shadow: -5px -5px 20px black;
 }
+.impactfont
+{
+	color: #E9E017;
+	font-family: impact;
+	font-size: 500%;
+	text-align: center;
+	text-decoration:underline;
+}
+#mainiFrame
+{
+	background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
+}
 #buttonList
 {
-	display:none;
     opacity:0.0;
     filter:alpha(opacity=0);
-	padding-left:105px;
-	padding-top:340px;
+	padding-left:2%;
+	padding-top:20%;
+	list-style-type: none;
 }
 body
 {
 	width: 100%;
 	height: 100%;
-    font-family: arial, helvetica, sans-serif;
-	font-size: 14px;
-	color: black;
 	background-color: #522121;
 }
