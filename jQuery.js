@@ -61,17 +61,17 @@ function LowResolution()
 	$(module).css('width', "1166px");
 	$(module).css('height', "819");
 	$(module).css('margin-left', "50px");
-	$(buttonList).css('padding-left', "100px");
-	$(buttonList).css('padding-top', "260px");
-	$(button).css('width', "220px");
-	$(button).css('height', "100px");
-	$(button).css('line-height', "95px");
-	$(button).css('margin-right', "4%");
-	$(impactFont).css('font-size', "50px");
-	$(mainiFrame).css('margin-left', "270px");
-	$(mainiFrame).css('margin-top', "10px");
-	$(mainiFrame).css('width', "664px");
-	$(mainiFrame).css('height', "420px");
+	$(buttonList).css('padding-left', "430px");
+	$(buttonList).css('padding-top', "150px");
+	$(button).css('width', "160px");
+	$(button).css('height', "90px");
+	$(button).css('line-height', "88px");
+	$(button).css('margin-right', "2%");
+	$(impactFont).css('font-size', "35px");
+	$(mainiFrame).css('margin-left', "185px");
+	$(mainiFrame).css('margin-top', "24px");
+	$(mainiFrame).css('width', "841px");
+	$(mainiFrame).css('height', "532px");
 }
 
 

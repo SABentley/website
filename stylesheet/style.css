@@ -18,6 +18,13 @@
 	background-repeat: no-repeat;
 	background-color: #522121;
 }
+#moduleColour
+{
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-color: #B23A3A;
+}
 .button
 {
 	display: inline-block;
@@ -26,10 +33,11 @@
 	height: 11%;
 	line-height: 142px;
 	background-color: #32283D;
-	box-shadow: -5px -5px 20px black;
+	box-shadow: -5px -5px 15px black;
 }
 .impactfont
 {
+	-webkit-font-smoothing: antialiased;
 	color: #E9E017;
 	font-family: impact;
 	font-size: 500%;
