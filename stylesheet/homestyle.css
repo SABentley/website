@@ -1,0 +1,64 @@
+.impactfont
+{
+	-webkit-font-smoothing: antialiased;
+	color: #E9E017;
+	font-family: impact;
+	text-align: center;
+	font-size: 100px;
+	margin-top: 0px;
+	margin-bottom:100px;
+}
+
+.programmerfont
+{
+
+}
+
+@font-face
+{
+	font-family: fighterfont;
+	src: url(MADEC___.TTF)
+}
+
+@font-face
+{
+	font-family: programmerfont;
+	src: url(Code.ttf)
+}
+
+.programmerfont
+{
+	font-family:programmerfont;
+	margin-top:0px;
+	padding-top:0px;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom:10px;
+}
+
+.fighterfont
+{
+	margin-top:0px;
+	text-align: center;
+	font-family: fighterfont;
+	font-size: 75px;
+	margin-bottom:140px;
+}
+
+.blinktext
+{
+
+}
+
+.smallerfont
+{
+	font-size: 25px;
+}
+
+#moduleColour
+{
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-color: #B23A3A;
+}
