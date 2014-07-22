@@ -36,11 +36,18 @@
 	background-color: #32283D;
 	box-shadow: -5px -5px 15px black;
 }
+
+@font-face
+{
+	font-family: impactfontface;
+	src: url(impact.ttf)
+}
+
 .impactfont
 {
 	-webkit-font-smoothing: antialiased;
 	color: #E9E017;
-	font-family: impact;
+	font-family: impactfontface;
 	font-size: 200%;
 	text-align: center;
 	text-decoration:underline;
