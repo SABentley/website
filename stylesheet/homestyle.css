@@ -2,16 +2,17 @@
 {
 	-webkit-font-smoothing: antialiased;
 	color: #E9E017;
-	font-family: impact;
+	font-family: impactfontface;
 	text-align: center;
 	font-size: 100px;
 	margin-top: 0px;
 	margin-bottom:100px;
 }
 
-.programmerfont
+@font-face
 {
-
+	font-family: impactfontface;
+	src: url(impact.ttf)
 }
 
 @font-face
