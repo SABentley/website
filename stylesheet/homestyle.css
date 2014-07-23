@@ -4,9 +4,9 @@
 	color: #E9E017;
 	font-family: impactfontface;
 	text-align: center;
-	font-size: 100px;
+	font-size: 75px;
 	margin-top: 0px;
-	margin-bottom:100px;
+	margin-bottom: 0px;
 }
 
 @font-face
@@ -17,43 +17,32 @@
 
 @font-face
 {
-	font-family: fighterfont;
-	src: url(MADEC___.TTF)
+	font-family: start;
+	src: url(Code.ttf);
 }
 
-@font-face
+#programmer
 {
-	font-family: programmerfont;
-	src: url(Code.ttf)
+	padding-left: 190px;
 }
 
-.programmerfont
+#fighter
 {
-	font-family:programmerfont;
-	margin-top:0px;
-	padding-top:0px;
-	text-align: center;
-	font-size: 50px;
-	margin-bottom:10px;
+	padding-top: 50px;
+	padding-left: 310px;
 }
 
-.fighterfont
-{
-	margin-top:0px;
-	text-align: center;
-	font-family: fighterfont;
-	font-size: 75px;
-	margin-bottom:140px;
-}
-
-.blinktext
+.blink
 {
 
 }
 
 .smallerfont
 {
+	padding-top: 50px;
+	font-family: start;
 	font-size: 25px;
+	text-align: center;
 }
 
 #moduleColour
