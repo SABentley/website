@@ -5,17 +5,16 @@ window.onload = function()
 	var height = $(window).height();
 	
 	WindowSize(width, height);
-
-	var loaded = false;
+	
+	ResolutionHome(lowResBool);
 
 	$('#module').fadeTo(750, 1, function() 
 	{
 		$('#buttonList').fadeTo(750, 1, function() 
 		{
-			loaded = true;
+			
 		});
     });
-
 
 	$(".button").mouseenter(function() 
 	{
@@ -27,23 +26,40 @@ window.onload = function()
 	{
 		$(this).css("color", "#E9E017");
 	});
+	
+	$(".button").click(function()
+	{
+		if($(this).attr("id") == "homebutton")
+		{
+			
+		}
+
+	});
 
 };
 
 function WindowSize(width, height)
 {
+
+	var lowResBool = false;
+
 	if(width <= 1280)
 	{
 		if(height <= 1024)
 		{
 			LowResolution();
+			lowResBool = true;
 		}
 	}
 	else
 	{
 		
 	}
+	
+	$("#mainiFrame").data("resolution", lowResBool);
 }
+
+
 
 function LowResolution()
 {
