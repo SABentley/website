@@ -5,8 +5,6 @@ window.onload = function()
 	var height = $(window).height();
 	
 	WindowSize(width, height);
-	
-	ResolutionHome(lowResBool);
 
 	$('#module').fadeTo(750, 1, function() 
 	{
@@ -29,10 +27,6 @@ window.onload = function()
 	
 	$(".button").click(function()
 	{
-		if($(this).attr("id") == "homebutton")
-		{
-			
-		}
 
 	});
 
@@ -40,25 +34,14 @@ window.onload = function()
 
 function WindowSize(width, height)
 {
-
-	var lowResBool = false;
-
 	if(width <= 1280)
 	{
 		if(height <= 1024)
 		{
 			LowResolution();
-			lowResBool = true;
 		}
 	}
-	else
-	{
-		
-	}
-	
-	$("#mainiFrame").data("resolution", lowResBool);
 }
-
 
 
 function LowResolution()

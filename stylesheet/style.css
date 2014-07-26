@@ -65,11 +65,11 @@
 {
 	width: 1080px;
 	height: 608px;
-	background-color: transparent;
+	/*background-color: transparent;*/
     border: 0px none transparent;
 	margin-top: 3%;
 	margin-left: 15%;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
     padding: 0px;
     overflow: hidden;
 }

@@ -1,14 +1,3 @@
-.impactfont
-{
-	-webkit-font-smoothing: antialiased;
-	color: #E9E017;
-	font-family: impactfontface;
-	text-align: center;
-	font-size: 75px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
 @font-face
 {
 	font-family: impactfontface;
@@ -39,6 +28,7 @@
 
 .smallerfont
 {
+	color: white;
 	padding-top: 50px;
 	font-family: start;
 	font-size: 25px;
