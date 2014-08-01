@@ -1,10 +1,13 @@
 window.onload = function() 
 {
-
-	var width = $(window).width();
-	var height = $(window).height();
+	var width = "innerWidth" in window ? window.innerWidth : document.documentElement.offsetWidth; 
+	var height = "innerHeight" in window ? window.innerHeight : document.documentElement.offsetHeight; 
+	
+	console.log($('#module').data('resolution'));
 	
 	WindowSize(width, height);
+	
+	$('#mainiFrame').data('currentHTML', 0);
 
 	$('#module').fadeTo(750, 1, function() 
 	{
@@ -32,15 +35,106 @@ window.onload = function()
 
 };
 
+
+$(function(){
+    $('#mainiFrame').load(function()
+	{
+		if($('module').data('resolution') != 'low')
+		{
+			var value = $('#mainiFrame').data('currentHTML');
+			
+			if(typeof value == 'undefined')
+			{
+				value = 0;
+				
+				switch(value)
+				{
+					case 0:
+						$("#programmer").slideDown();
+						$("#fighter").slideDown();
+						break;
+					case 1:
+						break;
+					case 2:
+						break;
+					case 3:
+						break;
+					default:
+						break;
+				}
+			}
+			else
+			{
+				switch(value)
+				{
+					case 0:
+						$("#programmer").slideDown();
+						$("#fighter").slideDown();
+						break;
+					case 1:
+						break;
+					case 2:
+						break;
+					case 3:
+						break;
+					default:
+						break;
+				}
+			}
+			
+			
+		}
+		else
+		{
+			var value = $('#mainiFrame').data('currentHTML');
+			
+			switch(value)
+			{
+				case 0:
+					LowResolutionHome();
+					$("#programmer").slideDown();
+					$("#fighter").slideDown();
+					break;
+				case 1:
+					break;
+				case 2:
+					break;
+				case 3:
+					break;
+				default:
+					break;
+			}
+		}
+	});
+});
+
+
+
+
 function WindowSize(width, height)
 {
+	console.log(width);
+	console.log(height);
+
 	if(width <= 1280)
 	{
 		if(height <= 1024)
 		{
 			LowResolution();
+			$('#module').data('resolution', 'low');
 		}
 	}
+
+}
+
+function LowResolutionHome()
+{
+	console.log("low res");
+	$("#programmer").css("padding-left", "190px");
+	$("#fighter").css("padding-top", "50px");
+	$("#fighter").css("padding-left", "310px");
+	$(".smallerfont").css("paddingtop", "50px");
+	$(".smallerfont").css("font-size", "25px");
 }
 
 

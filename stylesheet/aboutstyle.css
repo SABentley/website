@@ -5,3 +5,22 @@
 	background-repeat: no-repeat;
 	background-color: #B23A3A;
 }
+
+#profilepicture
+{
+	float: left;
+}
+
+@font-face
+{
+	font-family: futurist;
+	src: url(FUTRFW.TTF);
+}
+
+.aboutmetext
+{
+	color: #E9E017;
+	font-size: 17px;
+	font-family: futurist;
+	margin-top: 0px;
+}

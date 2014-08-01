@@ -3,28 +3,28 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="stylesheet/style.css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 		</script>
 		<Title>Sheldon Bentley</Title>
 	</head>
 	<body>
 		<div id="background">
-			<div id="module">
+			<div id="module" data-loaded="false" data-resolution='high'>
 				<div>
 					<ul id="buttonList">
 						<li><a href="home.html" target="theMainFrame"><div class="button unselectable buttonFont" id="homebutton">HOME</div></a></li>
 						<li><a href="aboutme.html" target="theMainFrame"><div class="button unselectable buttonFont">ABOUT ME</div></a></li>
 						<li><a href="projects.html" target="theMainFrame"><div class="button unselectable buttonFont">PROJECTS</div></a></li>
-						<li><a href="aboutme.html" target="theMainFrame"><div class="button unselectable buttonFont">CONTACT</div></a></li>
+						<li><a href="contacts.html" target="theMainFrame"><div class="button unselectable buttonFont">CONTACT</div></a></li>
 					</ul>
 				</div>
 				<div>
-					<iframe id="mainiFrame" src="home.html" name="theMainFrame" scrolling="no">
+					<iframe id="mainiFrame" src="home.html" name="theMainFrame" scrolling="no" data-currentHTML=0>
 						<p>Your browser does not support iframes.</p>
 					</iframe>
 				</div>
 			</div>
 		</div>
 		<script type='text/javascript' src="jQuery.js"></script>
-		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	</body>
 </html>
